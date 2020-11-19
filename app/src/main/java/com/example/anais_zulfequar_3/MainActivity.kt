@@ -30,7 +30,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun goToPage2(){
-      //  val intent = Intent(this, se)
+       val intent = Intent(this, MainActivity2::class.java)
+        startActivity(intent)
     }
 
 }
