@@ -7,12 +7,22 @@ import androidx.appcompat.app.AlertDialog
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-    var provinceName = ""
+    var provinceName = " "
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+
         provinceName = intent.getStringExtra("name").toString()
+        if (provinceName == "null"){
+            provinceName = "Ontario"
+        }
         selectedProvince.text = provinceName
+       // if (selectedProvince.text == null){
+       //     selectedProvince.text = "Ontario "
+      //  }
+        //textView.text = selectedProvince.text
         button.setOnClickListener {
             AlertBox()
         }
@@ -24,6 +34,7 @@ class MainActivity : AppCompatActivity() {
         alert.setTitle("Would like you like to open Second Activity ")
             .setPositiveButton("Yes"){ _ , _ ->
                 goToPage2()
+
             }
             .setNegativeButton("No"){ _ , _ ->
 

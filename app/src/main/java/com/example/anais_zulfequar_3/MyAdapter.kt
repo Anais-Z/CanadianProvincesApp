@@ -10,7 +10,7 @@ import kotlinx.android.synthetic.main.row.view.*
 
 class MyAdapter(val data: ArrayList<Province>, val content: Context) : RecyclerView.Adapter<MyAdapter.MyViewFolder>() {
 
-    class MyViewFolder(itemView: View) : RecyclerView.ViewHolder(itemView)/*View.OnClickListener*/ { //step 1 - extend recycler view
+    class MyViewFolder(itemView: View) : RecyclerView.ViewHolder(itemView) { //step 1 - extend recycler view
 
     }
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) : MyViewFolder{
