@@ -36,7 +36,7 @@
         android:id="@+id/textView3"
         android:layout_width="63dp"
         android:layout_height="28dp"
-        android:text="Capital :"
+        android:text="@string/capital"
         android:textColor="#0B0404"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

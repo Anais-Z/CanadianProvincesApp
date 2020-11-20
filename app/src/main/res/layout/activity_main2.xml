@@ -10,7 +10,7 @@
         android:id="@+id/button2"
         android:layout_width="292dp"
         android:layout_height="91dp"
-        android:text="Load Provinces"
+        android:text="@string/load_provinces"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"

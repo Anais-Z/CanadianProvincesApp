@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Anais_Zulfequar_3</string>
+    <string name="selected_province">Selected Province!</string>
+    <string name="select_province">Select Province</string>
+    <string name="capital">Capital :</string>
+    <string name="load_provinces">Load Provinces</string>
 </resources>
