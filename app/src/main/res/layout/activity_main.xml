@@ -23,8 +23,8 @@
 
     <TextView
         android:id="@+id/selectedProvince"
-        android:layout_width="207dp"
-        android:layout_height="43dp"
+        android:layout_width="235dp"
+        android:layout_height="51dp"
         android:textAlignment="center"
         android:textColor="#070606"
         android:textColorHint="#070303"

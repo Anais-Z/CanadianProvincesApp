@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_main2.*
-import kotlinx.android.synthetic.main.activity_main2.view.*
 
 class MainActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -38,6 +37,11 @@ class MainActivity2 : AppCompatActivity() {
         var p7 = Province("Prince Edward Island", "Charlottetown", R.mipmap.prince)
         list.add(p7)
         return list
+
+
     }
+
+
+
 
 }

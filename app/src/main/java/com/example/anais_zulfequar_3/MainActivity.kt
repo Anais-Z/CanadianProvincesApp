@@ -7,10 +7,12 @@ import androidx.appcompat.app.AlertDialog
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+    var provinceName = ""
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        provinceName = intent.getStringExtra("name").toString()
+        selectedProvince.text = provinceName
         button.setOnClickListener {
             AlertBox()
         }
